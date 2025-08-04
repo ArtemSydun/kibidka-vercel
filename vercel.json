@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/scrape.js": {
+      "memory": 512,
+      "maxDuration": 10
+    }
+  },
+  "cron": [
+    {
+      "path": "/api/scrape",
+      "schedule": "*/5 * * * *"
+    }
+  ]
+}
